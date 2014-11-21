@@ -1,0 +1,16 @@
+application: appengine-examples
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /worker.php
+  script: worker.php
+
+- url: /error.txt
+  static_files: error.log
+  upload: /error.txt
+  mime_type: text/plain
