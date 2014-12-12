@@ -1,1 +1,8 @@
 nbproject
+.idea
+.installed.cfg
+bin
+dist
+downloads
+eggs
+parts
